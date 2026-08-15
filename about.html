@@ -17,84 +17,97 @@
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
-        <li><a href="projects.html">My Goals</a></li>
+        <li><a href="projects.html">My Projects</a></li>
     </ul>
 </nav>
 
 <main>
 
-<div class="container">
+    <div class="container">
 
-<section class="card">
-<h2>Who I Am</h2>
-<p>
-My name is Janeee, and I am a motivated Information Technology student who enjoys learning about technology, creativity, and problem-solving. I have a strong interest in computers, cybersecurity, and web development, and I am always looking for opportunities to improve my skills and knowledge. Outside of technology, I enjoy playing video games, exploring new ideas, and challenging myself to learn new things. My goal is to become a successful entrepreneur and create my own business by combining my passion for technology, innovation, and helping others.
-</p>
-</section>
+        <section class="card">
+            <h2>Who I Am</h2>
 
-</div>
+            <p>
+                My name is Janeee, and I am a motivated Information Technology
+                student who enjoys learning about technology, creativity, and
+                problem-solving. I have a strong interest in computers,
+                cybersecurity, and web development, and I am always looking for
+                opportunities to improve my skills and knowledge.
+            </p>
+
+            <p>
+                Outside of technology, I enjoy playing video games, exploring
+                new ideas, and challenging myself to learn new things. My goal
+                is to become a successful entrepreneur and create my own
+                business by combining my passion for technology, innovation,
+                and helping others.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name:</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        aria-describedby="name-error">
+
+                    <p id="name-error" class="error"></p>
+
+
+                    <label for="email">Email:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        aria-describedby="email-error">
+
+                    <p id="email-error" class="error"></p>
+
+
+                    <label for="phone">Phone Number:</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number">
+
+
+                    <label for="message">Message:</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Enter your message here."
+                        required></textarea>
+
+
+                    <button type="submit">Send Message</button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </div>
 
 </main>
-<section>
-<h2>Contact Me</h2>
-
-<form>
-
-<fieldset>
-
-<legend>Contact Information</legend>
-
-<label for="name">Name:</label>
-<input 
-type="text" 
-value="Juana Villalobos"
-id="name" 
-name="name"
-required
-aria-describedby="name-error">
-
-<p id="name-error" class="error">
-</p>
-
-
-<label for="email">Email:</label>
-<input 
-type="email" 
-value="Juanavillalobos13@AOL.com"
-id="email" 
-name="email"
-required
-aria-describedby="email-error">
-
-<p id="email-error" class="error">
-
-    <label for="phone">Phone Number:</label>
-<input 
-    type="tel" 
-    id="phone" 
-    name="phone" 
-    placeholder="(956) 690-1369">
-</p>
-
-
-<label for="message">Hello! Thank you for visiting my portfolio. I would love to hear from you. Please use this form to send me a message, ask questions, share opportunities, or connect with me. I will get back to you as soon as possible. </label>
-
-
-
-
-</fieldset>
-
-
-
-
-
-</form>
-
-</section>
-
-</form>
-
-</section>
 <footer>
 <p>Created by Janeee - 2026</p>
 </footer>
