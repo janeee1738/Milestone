@@ -51,7 +51,6 @@ h3 {
 .navbar a {
     color: #ffffff;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     padding: 8px 16px;
 }
@@ -109,52 +108,6 @@ footer {
     padding: 24px 16px;
     margin-top: 32px;
 }
-
-/* Mobile - 320px and up to 767px */
-@media (max-width: 767px) {
-    #main-header h1 {
-        font-size: 1.6rem;
-    }
-
-    .container {
-        width: 92%;
-        flex-direction: column;
-        gap: 16px;
-        margin: 24px auto;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .navbar a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .card {
-        flex: 1 1 auto;
-        padding: 16px;
-    }
-}
-
-/* Tablet - 768px to 1199px */
-@media (min-width: 768px) and (max-width: 1199px) {
-    .container {
-        width: 88%;
-    }
-
-    .card {
-        padding: 24px;
-    }
-
-    #main-header h1 {
-        font-size: 2.2rem;
-    }
-}
-
 /* Contact Form */
 fieldset {
     border: 2px solid #800080;
@@ -208,6 +161,75 @@ button:focus {
     background-color: #ff69b4;
     color: #000000;
 }
+/* Mobile - 320px and up to 767px */
+@media (max-width: 767px) {
+    #main-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        width: 92%;
+        flex-direction: column;
+        gap: 16px;
+        margin: 24px auto;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .navbar a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card {
+        flex: 1 1 auto;
+        padding: 16px;
+    }
+}
+
+/* Tablet - Intermediate Layout */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .container {
+        width: 90%;
+        margin: 28px auto;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1 1 320px;
+        padding: 25px;
+        margin: 0;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    #main-header {
+        padding: 30px 20px;
+    }
+
+    #main-header h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
 /* Desktop - 1200px and larger */
 @media (min-width: 1200px) {
     .container {
